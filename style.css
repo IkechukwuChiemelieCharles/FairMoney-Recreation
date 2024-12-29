@@ -47,7 +47,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 48.3rem;
+  width: 100%;
   height: 8.3rem;
   padding-left: 2rem;
 }
@@ -551,6 +551,7 @@ main .innerMain {
   align-items: center;
   flex-direction: column;
   margin-top: -10rem;
+  width: 100%;
 }
 
 .innerart2 .firstbox {
@@ -558,7 +559,8 @@ main .innerMain {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 42.503rem;
+  /* width: 42.503rem; */
+  width: 100%;
   height: 21.538rem;
   background-color: #f6f9ff;
   gap: 2rem;
@@ -597,7 +599,8 @@ main .innerMain {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  width: 43.469rem;
+  /* width: 43.469rem; */
+  width: 100%;
   height: 22rem;
   gap: 2rem;
   border: 1px solid var(--inactive);
@@ -859,7 +862,7 @@ aside .innerAside {
 }
 
 .innerAside .imgCont {
-  width: 48.3rem;
+  width: 100%;
   height: 35rem;
   display: flex;
   justify-content: center;

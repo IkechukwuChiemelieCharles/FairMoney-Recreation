@@ -38,7 +38,7 @@ header {
 
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 100vw;
   height: 8.3rem;
@@ -80,7 +80,6 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
   width: 100vw;
   height: 77.6rem;
 }
@@ -418,7 +417,7 @@ main .innerMain {
 }
 .innerMain .div6:hover {
   background-color: var(--blue);
-  /* background-image: url(./img/money-saved__blue.svg */
+  /* background-image: url(./img/loans-processed__white.svg); */
   color: var(--white);
   /* transition: all; */
 }
@@ -485,6 +484,7 @@ main .innerMain {
 .article1 h1 {
   font-size: 3rem;
   text-align: center;
+  /* align-self: center; */
 }
 .article1 .div1 {
   display: flex;
@@ -603,6 +603,10 @@ main .innerMain {
   border-left: 1px solid var(--inactive);
   height: 10rem;
 }
+.secbox p {
+  font-size: 1.8rem;
+  color: var(--paracol1);
+}
 
 .innerart2 .imgs {
   display: flex;
@@ -699,7 +703,7 @@ main .innerMain {
   gap: 1rem;
   width: 23.791rem;
   height: 9.9rem;
-  border-bottom: 1px solid var(--paracol1);
+  border-bottom: 1px solid var(--inactive);
 }
 .top h2 {
   font-size: 2.4rem;

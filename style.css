@@ -47,7 +47,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 90%;
   height: 8.3rem;
   padding-left: 2rem;
 }
@@ -422,6 +422,15 @@ main .innerMain {
   color: var(--white);
   /* transition: all; */
 }
+
+.innerMain .div1,
+.innerMain .div2,
+.innerMain .div3,
+.innerMain .div4,
+.innerMain .div5,
+.innerMain .div6 {
+  width: 20.15rem;
+}
 .innerMain .writeUp {
   display: flex;
   flex-direction: column;
@@ -457,7 +466,8 @@ main .innerMain {
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  width: 144rem;
+  width: 90%;
+  /* width: 144rem; */
   overflow: hidden;
   gap: 4rem;
 }
@@ -551,7 +561,7 @@ main .innerMain {
   align-items: center;
   flex-direction: column;
   margin-top: -10rem;
-  width: 100%;
+  width: 90%;
 }
 
 .innerart2 .firstbox {
@@ -623,7 +633,7 @@ main .innerMain {
   margin-top: 10rem;
 }
 .innerArt3 {
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: start;
   align-items: center;
@@ -740,7 +750,8 @@ main .innerMain {
   align-items: start;
   justify-content: center;
   flex-direction: column;
-  width: 35rem;
+  /* width: 35rem; */
+  width: 90%;
 }
 
 .innerart4 .topText {
@@ -869,8 +880,8 @@ aside .innerAside {
 }
 
 .innerAside .imgCont img {
-  width: 35%;
-  height: 100%;
+  width: 40%;
+  height: 80%;
 }
 
 .content {
@@ -926,7 +937,8 @@ footer {
   align-items: center;
 }
 .innerFooter {
-  width: 42.3rem;
+  /* width: 42.3rem; */
+  width: 90%;
   height: 86.8rem;
   flex-direction: column;
   display: flex;

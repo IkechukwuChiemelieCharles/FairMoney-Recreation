@@ -1,0 +1,178 @@
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --checkBg: #37a4771a;
+  --blueish: #ebf1fd;
+  --paracol1: #404b65;
+  --paracol2: #28365542;
+  --paracol3: #727272;
+  --headerCol: #1e1f26;
+  --bgFaintWhite: #fbfbfd;
+  --faintPurple: #f4f1f8;
+  --faintGreen: #f1f7f6;
+  --faintPink: #fbf3ee;
+  --faintGrey: #f1f4fc;
+  --brown: #d18660;
+  --green: #37a477;
+  --blue: #336eeb;
+  --faintpink2: #fbf4ee;
+  --inactive: #c9c9ca;
+  --opacity: #00000005;
+  --footer: #171d32;
+}
+nav {
+  border: 1px solid red;
+}
+
+.linksXbtn {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 4rem;
+  width: 68.186rem;
+}
+
+.linksXbtn ul {
+  display: flex;
+  gap: 2rem;
+}
+.linksXbtn ul li,
+.linksXbtn ul li a {
+  list-style: none;
+  text-decoration: none;
+  color: var(--black);
+  font-size: 1.5rem;
+}
+nav .flagCont {
+  position: relative;
+  border: 1px solid green;
+}
+nav .flagDrop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5.689rem;
+  height: 3.7rem;
+  border: 1px solid var(--inactive);
+  color: var(--paracol1);
+  gap: 0.5rem;
+  cursor: pointer;
+  border-radius: 0.2rem;
+}
+nav .flagDrop p {
+  display: none;
+}
+nav .flagDrop:hover {
+  background-color: var(--paracol2);
+}
+nav .flagCont img {
+  width: 2rem;
+  height: 1.4rem;
+}
+
+nav button {
+  border: none;
+  width: 11.9rem;
+  height: 3.8rem;
+  background-color: var(--black);
+  border-radius: 1rem;
+  color: var(--white);
+  font-weight: bold;
+  cursor: pointer;
+}
+nav .flagMenu {
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 12.289rem;
+  height: 9.2rem;
+  background-color: var(--white);
+  border: 1px solid red;
+  position: absolute;
+  z-index: 4;
+  left: 0;
+  /* display: none; */
+}
+/* .hidden {
+  display: none;
+} */
+
+nav .flagMenu span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  height: 3rem;
+  border: 1px solid green;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+nav .flagMenu span:hover {
+  background-color: var(--paracol2);
+}
+nav .harm {
+  display: none;
+}
+
+.bigDisplay {
+  width: 87.736rem;
+  height: 62.2rem;
+  margin-top: 5rem;
+}
+
+.innerMain .div1,
+.innerMain .div2,
+.innerMain .div3,
+.innerMain .div4,
+.innerMain .div5,
+.innerMain .div6 {
+  width: 30%;
+}
+
+.article1 .div1 {
+  width: 45.6rem;
+  height: 46.5rem;
+}
+
+.innerArt3 {
+  width: 90%;
+
+  flex-direction: row;
+  height: 77.9rem;
+}
+
+.article3 .names {
+  overflow-x: auto;
+
+  width: 26.131rem;
+  height: 42.7rem;
+  flex-direction: column;
+}
+
+.names .fname {
+  width: 100%;
+  text-wrap: wrap;
+}
+
+.boxes {
+  /* width: 108.1rem; */
+  width: 100%;
+
+  border: 1px solid red;
+}
+.boxes .box1 {
+  width: 43.3rem;
+}
+
+.innerAside .imgCont {
+  width: 41.592;
+  height: 43.4rem;
+}
+
+.innerAside .imgCont img {
+  width: 23rem;
+  height: 45rem;
+}

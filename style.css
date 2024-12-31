@@ -36,6 +36,10 @@ header {
   width: 100vw;
 }
 
+.hide {
+  display: none;
+}
+
 nav {
   display: flex;
   justify-content: center;
@@ -61,7 +65,7 @@ nav .logoCont img {
   height: 100%;
 }
 
-nav i {
+nav .harm {
   font-size: 4rem !important;
   display: flex;
   justify-content: center;
@@ -630,7 +634,7 @@ main .innerMain {
   width: 100vw;
   display: flex;
   justify-content: start;
-  align-items: start;
+  align-items: center;
   flex-direction: column;
   height: 77.9rem;
   overflow-x: hidden;
@@ -646,7 +650,7 @@ main .innerMain {
   overflow-x: hidden;
   gap: 3rem;
 }
-.innerArt3 h1 {
+.article3 h1 {
   color: var(--black);
   font-size: 3rem;
 }
@@ -681,10 +685,6 @@ main .innerMain {
   background-color: var(--faintPink);
 }
 
-.hide {
-  display: none;
-}
-
 .testimonies {
   background-color: var(--bgFaintWhite);
   width: 43.469rem;
@@ -704,6 +704,13 @@ main .innerMain {
   width: 23.791rem;
   height: 9.9rem;
   border-bottom: 1px solid var(--inactive);
+}
+
+.testimonies .top1,
+.top2,
+.top3,
+.top4 {
+  /* display: none; */
 }
 .top h2 {
   font-size: 2.4rem;

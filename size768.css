@@ -10,15 +10,29 @@ header {
   gap: 4rem;
 }
 .bigDisplay {
-  background-image: url(./img/mock-hero-right.21d5a5e.png);
+  background-image: url(./img/mock-hero-right.21d5a5e\ -\ Copy.png);
   /* background-position: 56rem 0; */
-  background-position: 120% 0;
-  background-size: 30rem;
+  background-position: -20rem 35rem;
+  background-size: 40rem;
   background-repeat: no-repeat;
   position: relative;
   /* background-origin: border-box;
   transform: rotate(45deg);
   transform-origin: center; */
+  /* border: 1px solid red; */
+  height: 60.4rem;
+}
+
+.bgimg {
+  /* border: 1px solid red; */
+  width: 20rem;
+  height: 40rem;
+  position: absolute;
+  background-image: url(./img/mock-hero-right.21d5a5e.png);
+  background-position: left;
+  background-size: cover;
+  right: 0;
+  top: 0;
 }
 
 .bigDisplay h1 {
@@ -31,21 +45,6 @@ header {
   /* width: 39.122rem; */
   width: 50rem;
   height: 18rem;
-}
-
-.bgimg {
-  width: 33.126rem;
-  height: 36.64rem;
-  background-image: url(./img/home.b39e4e5.webp);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: 10rem 5rem;
-  background-origin: border-box;
-  transform: rotate(45deg);
-  transform-origin: center;
-  position: absolute;
-  bottom: 2rem;
-  left: -0rem;
 }
 
 header .licXins {
@@ -179,13 +178,11 @@ footer {
   flex-wrap: wrap;
   width: 60%;
   height: 40.1rem;
-  border: 1px solid red;
 }
 
 footer .mid {
   align-items: end;
   width: 30%;
-  border: 1px solid red;
 }
 
 footer .icon {

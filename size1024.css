@@ -21,7 +21,6 @@
   --footer: #171d32;
 }
 nav {
-  border: 1px solid red;
 }
 
 .linksXbtn {
@@ -43,6 +42,92 @@ nav {
   color: var(--black);
   font-size: 1.5rem;
 }
+
+.linksXbtn ul li a:hover {
+  color: var(--green);
+}
+.embed1,
+.embed2 {
+  position: relative;
+}
+
+.embed1Ol,
+.embed2ol {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 1.5rem;
+  left: -2rem;
+  z-index: 10;
+  background-color: var(--white);
+  /* width: 20rem; */
+  /* height: 20rem; */
+  padding: 4rem;
+  gap: 2rem;
+  justify-content: center;
+  align-items: start;
+  border-radius: 0.5rem;
+  border: 1px solid red;
+}
+
+.embed1Ol li,
+.embed2ol li {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 1.5rem;
+  width: 100%;
+  height: 4.5rem;
+  gap: 2rem;
+  padding: 2rem;
+  border: 1px solid green;
+  text-wrap: nowrap;
+  font-weight: bold;
+}
+.embed1:hover .embed1Ol {
+  display: flex;
+}
+
+.saving {
+  position: relative;
+}
+.saving:hover .nested {
+  display: flex;
+  flex-direction: column;
+}
+
+.nested {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 0rem;
+  left: 19rem;
+  z-index: 10;
+  background-color: var(--white);
+  /* width: 20rem; */
+  /* height: 20rem; */
+  padding: 4rem;
+  gap: 2rem;
+  justify-content: center;
+  align-items: start;
+  border-radius: 0.5rem;
+  border: 1px solid blue;
+}
+.iconConts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: red;
+}
+
+.embed1Ol li img,
+.embed2ol li img {
+  width: 2rem;
+  height: 2rem;
+}
+
 nav .flagCont {
   position: relative;
   border: 1px solid green;
@@ -88,7 +173,6 @@ nav .flagMenu {
   width: 12.289rem;
   height: 9.2rem;
   background-color: var(--white);
-  border: 1px solid red;
   position: absolute;
   z-index: 4;
   left: 0;
@@ -118,9 +202,16 @@ nav .harm {
 }
 
 .bigDisplay {
-  width: 87.736rem;
+  /* width: 87.736rem; */
+  width: 80%;
   height: 62.2rem;
   margin-top: 5rem;
+}
+
+.bigDisplay h1 {
+  font-size: 4.5rem;
+  height: 16.2rem;
+  width: 53rem;
 }
 
 .innerMain .div1,
@@ -131,10 +222,45 @@ nav .harm {
 .innerMain .div6 {
   width: 30%;
 }
+.innerMain .div1 h1 {
+  font-size: 4rem;
+  /* width: 37.5rem; */
+  /* height: 9.6rem; */
+}
+
+.innerMain .div1 p {
+  /* width: 37.5rem; */
+  /* height: 12rem; */
+}
+
+.innerMain .div2 span {
+  font-size: 7.5rem;
+}
+.innerMain .div3 span {
+  font-size: 5rem;
+}
+.innerMain .div4 span {
+  font-size: 7.5rem;
+}
+
+.innerMain .div5 span {
+  font-size: 7.5rem;
+}
+
+.innerMain .div6 span {
+  font-size: 3.6rem;
+}
+.innerMain h6 {
+  font-weight: bolder;
+}
 
 .article1 .div1 {
-  width: 45.6rem;
+  width: 85.6rem;
   height: 46.5rem;
+}
+
+.article1 .div1 p {
+  font-size: 2rem;
 }
 
 .innerArt3 {
@@ -160,8 +286,6 @@ nav .harm {
 .boxes {
   /* width: 108.1rem; */
   width: 100%;
-
-  border: 1px solid red;
 }
 .boxes .box1 {
   width: 43.3rem;
@@ -175,4 +299,49 @@ nav .harm {
 .innerAside .imgCont img {
   width: 23rem;
   height: 45rem;
+}
+
+.article3 .names {
+  /* display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 43.469rem;
+  height: 11.2rem; */
+  /* overflow-x: scroll; */
+  /* gap: 2rem; */
+}
+/* .testText {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 37.469rem;
+  height: 27.759rem;
+
+  overflow-y: scroll;
+} */
+.testText p {
+  height: 27.759rem;
+
+  overflow-y: scroll;
+}
+
+header .bottom {
+  /* width: 43.469rem; */
+  width: 80%;
+  height: 21rem;
+}
+
+.testimonies {
+  justify-content: center;
+}
+.innerart2 .firstbox p {
+  font-size: 2.4rem;
+  text-align: start;
+  line-height: 4rem;
+  width: 57.72rem;
+  height: 11rem;
+}
+
+.article3 h1 {
+  font-size: 4rem;
 }

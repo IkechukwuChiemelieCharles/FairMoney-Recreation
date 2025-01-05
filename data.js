@@ -137,9 +137,9 @@ iconConts.forEach(function (cont, i) {
 
 const harm = document.querySelector(".harm");
 
-const linksXbtn = document.querySelector(".linksXbtn");
+const mobile = document.querySelector(".mobile");
 
 harm.addEventListener("click", function () {
-  linksXbtn.classList.toggle("hidden");
+  mobile.classList.toggle("hidden");
   console.log("click");
 });

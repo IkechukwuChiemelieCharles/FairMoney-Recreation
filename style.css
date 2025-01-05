@@ -38,7 +38,7 @@ header {
 }
 
 .hide {
-  display: none;
+  display: none !important;
 }
 
 /* .none {
@@ -89,7 +89,6 @@ nav .harm {
   position: absolute;
   top: 8rem;
   left: 0;
-  border: 1px solid red;
   background-color: var(--white);
   z-index: 20;
   height: 100vh;
@@ -107,7 +106,7 @@ nav .harm {
   display: flex;
   justify-content: start;
   align-items: center;
-  border-bottom: 1px solid green;
+  border-bottom: 1px solid var(--inactive);
   color: var(--black);
   height: 6.2rem;
   width: 100%;
@@ -1067,4 +1066,8 @@ footer .icon {
 .innerFooter p {
   font-size: 1.4rem;
   color: var(--white);
+}
+
+.hidden {
+  display: none;
 }

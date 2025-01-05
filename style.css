@@ -20,6 +20,7 @@
   --brown: #d18660;
   --green: #37a477;
   --blue: #336eeb;
+  --blue: #33ebe2;
   --faintpink2: #fbf4ee;
   --inactive: #c9c9ca;
   --opacity: #00000005;
@@ -39,6 +40,10 @@ header {
 .hide {
   display: none;
 }
+
+/* .none {
+  display: none;
+} */
 
 nav {
   display: flex;
@@ -79,6 +84,44 @@ nav .harm {
   display: none;
 }
 
+.mobile {
+  width: 100vw;
+  position: absolute;
+  top: 8rem;
+  left: 0;
+  border: 1px solid red;
+  background-color: var(--white);
+  z-index: 20;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  /* padding-left: 5rem; */
+}
+.mobile ul {
+  width: 100%;
+}
+.mobile a,
+.mobile li {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-bottom: 1px solid green;
+  color: var(--black);
+  height: 6.2rem;
+  width: 100%;
+  padding-left: 4rem;
+  font-size: 1.6rem;
+}
+
+.prodInner {
+  display: none;
+}
+
+.prod:hover .prodInner {
+  display: flex;
+}
 header {
   display: flex;
   justify-content: center;

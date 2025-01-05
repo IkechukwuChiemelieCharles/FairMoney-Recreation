@@ -53,7 +53,12 @@ nav {
 
 .embed1Ol,
 .embed2ol {
-  display: none;
+  box-shadow: 5px 5px 20px black;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.6s, visibility 0.6s;
+  display: flex;
   flex-direction: column;
   position: absolute;
   top: 1.5rem;
@@ -67,7 +72,6 @@ nav {
   justify-content: center;
   align-items: start;
   border-radius: 0.5rem;
-  border: 1px solid red;
 }
 
 .embed1Ol li,
@@ -80,28 +84,57 @@ nav {
   height: 4.5rem;
   gap: 2rem;
   padding: 2rem;
-  border: 1px solid green;
   text-wrap: nowrap;
   font-weight: bold;
 }
-.embed1:hover .embed1Ol {
-  display: flex;
+.embed1:hover .embed1Ol,
+.embed2:hover .embed2ol {
+  opacity: 1;
+  visibility: visible;
+}
+
+.savingsCalc:hover .nested3 {
+  opacity: 1;
+  visibility: visible;
 }
 
 .saving {
   position: relative;
 }
+.lending {
+  position: relative;
+}
 .saving:hover .nested {
-  display: flex;
-  flex-direction: column;
+  opacity: 1;
+  visibility: visible;
+  /* display: flex;
+  flex-direction: column; */
+}
+.lending:hover .nested2 {
+  opacity: 1;
+  visibility: visible;
+  /* display: flex;
+  flex-direction: column; */
 }
 
-.nested {
-  display: none;
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.nested,
+.nested2 {
+  box-shadow: 5px 5px 20px black;
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.6s, visibility 0.6s;
   flex-direction: column;
   position: absolute;
   top: 0rem;
-  left: 19rem;
+  left: 19.6rem;
   z-index: 10;
   background-color: var(--white);
   /* width: 20rem; */
@@ -111,15 +144,39 @@ nav {
   justify-content: center;
   align-items: start;
   border-radius: 0.5rem;
-  border: 1px solid blue;
 }
+.nested3 {
+  box-shadow: 5px 5px 20px black;
+
+  opacity: 0;
+
+  visibility: hidden;
+
+  transition: opacity 0.6s, visibility 0.6s;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0rem;
+  left: 28.2rem;
+  z-index: 10;
+  background-color: var(--white);
+  /* width: 20rem; */
+  /* height: 20rem; */
+  padding: 4rem;
+  gap: 2rem;
+  justify-content: center;
+  align-items: start;
+  border-radius: 0.5rem;
+}
+/*  */
 .iconConts {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 3.5rem;
   height: 3.5rem;
-  background-color: red;
+  border-radius: 0.5rem;
+  /* background-color: gray; */
 }
 
 .embed1Ol li img,
@@ -130,7 +187,6 @@ nav {
 
 nav .flagCont {
   position: relative;
-  border: 1px solid green;
 }
 nav .flagDrop {
   display: flex;
@@ -189,7 +245,6 @@ nav .flagMenu span {
   gap: 1rem;
   width: 100%;
   height: 3rem;
-  border: 1px solid green;
   font-size: 1.5rem;
   font-weight: bolder;
 }

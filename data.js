@@ -125,3 +125,21 @@ maps.forEach(function (map) {
     flagMenu.classList.toggle("hide");
   });
 });
+
+const iconConts = document.querySelectorAll(".iconConts");
+const colors = ["#37a477", "#336eeb", "#9233eb", "#33ebe2"];
+
+iconConts.forEach(function (cont, i) {
+  const colorIndex = i % colors.length;
+
+  cont.style.background = colors[colorIndex];
+});
+
+const harm = document.querySelector(".harm");
+
+const linksXbtn = document.querySelector(".linksXbtn");
+
+harm.addEventListener("click", function () {
+  linksXbtn.classList.toggle("hidden");
+  console.log("click");
+});

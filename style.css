@@ -810,14 +810,16 @@ main .innerMain {
   padding: 0 2rem;
   border-radius: 1rem;
   cursor: pointer;
-}
-.inActive {
   color: var(--inactive);
   background-color: var(--bgFaintWhite);
 }
+/* .inActive {
+  color: var(--inactive);
+  background-color: var(--bgFaintWhite);
+} */
 .activeName {
-  color: var(--brown);
-  background-color: var(--faintPink);
+  color: var(--brown) !important;
+  background-color: var(--faintPink) !important;
 }
 
 .testimonies {

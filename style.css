@@ -91,7 +91,7 @@ nav .harm {
   left: 0;
   background-color: var(--white);
   z-index: 20;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -99,27 +99,99 @@ nav .harm {
   /* padding-left: 5rem; */
 }
 .mobile ul {
-  width: 100%;
+  width: 100vw;
 }
-.mobile a,
-.mobile li {
+.mobile a {
   display: flex;
   justify-content: start;
   align-items: center;
-  border-bottom: 1px solid var(--inactive);
   color: var(--black);
   height: 6.2rem;
-  width: 100%;
   padding-left: 4rem;
   font-size: 1.6rem;
+}
+.mobilelinksCont {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.mobilelinksCont > div {
+  border-bottom: 1px solid var(--inactive);
 }
 
 .prodInner {
   display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  gap: 2rem;
+  z-index: 4;
 }
 
+.saving,
+.lending,
+.bank,
+.bill,
+.pos,
+.card,
+.deposit {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  gap: 2rem;
+  font-size: 1.5rem;
+}
+
+.prodInner .saving,
+.prodInner .lending {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.savingdiv,
+.lendingdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .prod:hover .prodInner {
   display: flex;
+}
+
+.savingInner,
+.lendingInner {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid blue;
+  width: 100%;
+}
+.savingInner div {
+  display: flex;
+  border-bottom: 1px solid var(--inactive);
+  width: 100%;
+}
+
+.saving:hover .savingInner {
+  display: flex;
+}
+.iconConts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 0.5rem;
+  /* background-color: gray; */
+}
+
+.iconConts img {
+  width: 2rem;
+  height: 2rem;
 }
 header {
   display: flex;

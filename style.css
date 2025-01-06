@@ -107,16 +107,19 @@ nav .harm {
   align-items: center;
   color: var(--black);
   height: 6.2rem;
-  padding-left: 4rem;
   font-size: 1.6rem;
+  gap: 1rem;
 }
 .mobilelinksCont {
   display: flex;
   flex-direction: column;
+  height: 140rem;
+  border: 1px solid green;
   width: 100%;
 }
 .mobilelinksCont > div {
   border-bottom: 1px solid var(--inactive);
+  padding-left: 4rem;
 }
 
 .prodInner {
@@ -124,9 +127,9 @@ nav .harm {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
   gap: 2rem;
   z-index: 4;
+  /* margin: 2rem; */
 }
 
 .saving,
@@ -138,47 +141,65 @@ nav .harm {
 .deposit {
   display: flex;
   justify-content: start;
-  align-items: center;
+  align-items: start;
   width: 100%;
   gap: 2rem;
   font-size: 1.5rem;
 }
-
+.prodInner {
+  padding: 2rem 0;
+}
 .prodInner .saving,
 .prodInner .lending {
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: start;
+  /* padding-left: 2rem; */
 }
 .savingdiv,
 .lendingdiv {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 2rem;
 }
-.prod:hover .prodInner {
+.prod:hover .prodInner,
+.prod:hover .savingInner,
+.prod:hover .lendingInner {
   display: flex;
+  padding-left: 2rem;
+  /* flex-direction: column; */
 }
 
-.savingInner,
-.lendingInner {
+.savingInner {
   display: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid blue;
-  width: 100%;
-}
-.savingInner div {
-  display: flex;
-  border-bottom: 1px solid var(--inactive);
   width: 100%;
 }
 
-.saving:hover .savingInner {
-  display: flex;
+.lendingInner {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 100%;
 }
+
+.savingInner div,
+.lendingInner div {
+  display: flex;
+  gap: 2rem;
+  border-bottom: 1px solid var(--inactive);
+  width: 100%;
+  height: 6.2rem;
+}
+
+/* .saving:hover .savingInner {
+  display: flex;
+} */
 .iconConts {
   display: flex;
   justify-content: center;

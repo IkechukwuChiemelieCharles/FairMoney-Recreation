@@ -15,7 +15,7 @@
 .innerMain .div5,
 .innerMain .div6 {
   width: 32.883rem;
-  border: 1px solid red;
+  
 } */
 .bigDisplay {
   /* width: 87.736rem; */
@@ -31,8 +31,6 @@
 }
 
 .bgimg {
-  /* border: 1px solid red; */
-
   background-size: 50rem;
 }
 header .bottom {
@@ -67,4 +65,17 @@ main .innerMain {
 
 .innerFooter {
   width: 125.752rem;
+}
+
+.innerAside .imgCont {
+  width: 41.592;
+  height: 43.4rem;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: start;
+  gap: 2rem;
 }

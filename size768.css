@@ -19,12 +19,10 @@ header {
   /* background-origin: border-box;
   transform: rotate(45deg);
   transform-origin: center; */
-  /* border: 1px solid red; */
   height: 60.4rem;
 }
 
 .bgimg {
-  /* border: 1px solid red; */
   width: 20rem;
   height: 40rem;
   position: absolute;
@@ -111,6 +109,8 @@ header .bottom {
   width: 90%;
 
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .testimonies .top {
@@ -118,7 +118,8 @@ header .bottom {
   border-bottom: none;
   padding-right: 2rem;
 }
-
+.latest {
+}
 .latest h1 {
   font-size: 4rem;
   border-right: 1px solid var(--inactive);

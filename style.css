@@ -950,9 +950,10 @@ main .innerMain {
   display: flex;
   align-items: center;
   justify-content: start;
-  width: 48.3rem;
+  width: 90%;
   height: 76.195rem;
   gap: 4rem;
+  overflow-x: hidden;
 }
 .boxes .box1 {
   display: flex;

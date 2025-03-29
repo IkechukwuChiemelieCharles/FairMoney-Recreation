@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  outline: 1px solid red;
 }
 :root {
   --black: #000000;
@@ -40,7 +39,7 @@ body {
   flex-direction: column;
 }
 header {
-  width: 90vw;
+  width: 98vw;
 }
 
 .hide {
@@ -55,7 +54,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90vw;
+  width: 98vw;
   height: 8.3rem;
 }
 .innerNav {
@@ -91,7 +90,7 @@ nav .harm {
 }
 
 .mobile {
-  width: 90vw;
+  width: 98vw;
   position: absolute;
   top: 8rem;
   left: 0;
@@ -105,7 +104,7 @@ nav .harm {
   /* padding-left: 5rem; */
 }
 .mobile ul {
-  width: 90vw;
+  width: 98vw;
 }
 .mobile a {
   display: flex;
@@ -225,7 +224,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 90vw;
+  width: 98vw;
   height: 77.6rem;
 }
 .bigDisplay {
@@ -398,7 +397,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90vw;
+  width: 98vw;
   background-color: var(--bgFaintWhite);
   border-radius: 3rem;
 }
@@ -599,7 +598,7 @@ main .innerMain {
 }
 
 .article1 {
-  width: 90vw;
+  width: 98vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -699,7 +698,7 @@ main .innerMain {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 90vw;
+  width: 98vw;
 }
 .innerart2 {
   display: flex;
@@ -775,7 +774,7 @@ main .innerMain {
 }
 
 .article3 {
-  width: 90vw;
+  width: 98vw;
   display: flex;
   justify-content: start;
   align-items: center;
@@ -894,7 +893,7 @@ main .innerMain {
   display: flex;
   align-items: start;
   justify-content: center;
-  width: 90vw;
+  width: 98vw;
   height: 93.494rem;
   background-color: #00000005;
   overflow: hidden;
@@ -1018,7 +1017,7 @@ aside {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90vw;
+  width: 98vw;
   height: 85.1rem;
 }
 aside .innerAside {
@@ -1088,7 +1087,7 @@ aside .innerAside {
 
 footer {
   background-color: var(--footer);
-  width: 90vw;
+  width: 98vw;
   height: 86.8rem;
   display: flex;
   justify-content: center;

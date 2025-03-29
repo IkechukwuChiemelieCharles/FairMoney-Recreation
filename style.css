@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  outline: 1px solid red;
 }
 :root {
   --black: #000000;
@@ -32,9 +33,14 @@ html {
 
 body {
   font-family: "League Spartan", sans-serif;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 header {
-  width: 100vw;
+  width: 90vw;
 }
 
 .hide {
@@ -49,7 +55,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 90vw;
   height: 8.3rem;
 }
 .innerNav {
@@ -85,7 +91,7 @@ nav .harm {
 }
 
 .mobile {
-  width: 100vw;
+  width: 90vw;
   position: absolute;
   top: 8rem;
   left: 0;
@@ -99,7 +105,7 @@ nav .harm {
   /* padding-left: 5rem; */
 }
 .mobile ul {
-  width: 100vw;
+  width: 90vw;
 }
 .mobile a {
   display: flex;
@@ -219,7 +225,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 100vw;
+  width: 90vw;
   height: 77.6rem;
 }
 .bigDisplay {
@@ -286,6 +292,7 @@ header .bottom {
   width: 90%;
   height: 21rem;
   gap: 2rem;
+  overflow-x: hidden;
 }
 
 .licXins {
@@ -391,7 +398,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 90vw;
   background-color: var(--bgFaintWhite);
   border-radius: 3rem;
 }
@@ -592,7 +599,7 @@ main .innerMain {
 }
 
 .article1 {
-  width: 100vw;
+  width: 90vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -692,7 +699,7 @@ main .innerMain {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 100vw;
+  width: 90vw;
 }
 .innerart2 {
   display: flex;
@@ -701,6 +708,7 @@ main .innerMain {
   flex-direction: column;
   margin-top: -10rem;
   width: 90%;
+  overflow-x: hidden;
 }
 
 .innerart2 .firstbox {
@@ -741,6 +749,7 @@ main .innerMain {
   border-right: 1px solid var(--inactive);
   border-left: 1px solid var(--inactive);
   height: 10rem;
+  overflow-x: hidden;
 }
 .secbox p {
   font-size: 1.8rem;
@@ -766,7 +775,7 @@ main .innerMain {
 }
 
 .article3 {
-  width: 100vw;
+  width: 90vw;
   display: flex;
   justify-content: start;
   align-items: center;
@@ -885,7 +894,7 @@ main .innerMain {
   display: flex;
   align-items: start;
   justify-content: center;
-  width: 100vw;
+  width: 90vw;
   height: 93.494rem;
   background-color: #00000005;
   overflow: hidden;
@@ -1009,7 +1018,7 @@ aside {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 90vw;
   height: 85.1rem;
 }
 aside .innerAside {
@@ -1079,7 +1088,7 @@ aside .innerAside {
 
 footer {
   background-color: var(--footer);
-  width: 100vw;
+  width: 90vw;
   height: 86.8rem;
   display: flex;
   justify-content: center;
@@ -1125,6 +1134,7 @@ footer {
   width: 9.159rem;
   height: 17rem;
   gap: 2rem;
+  overflow-x: hidden;
 }
 footer li,
 a {
